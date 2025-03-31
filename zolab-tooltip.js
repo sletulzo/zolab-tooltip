@@ -37,6 +37,7 @@ FupTooltip.prototype.createStyles = function() {
             white-space: nowrap;
             pointer-events: none;
             position: absolute;
+            box-shadow: 0px 5px 12px 0px #26334d1a;
         }
 
         .fup-tooltip-arrow {
@@ -176,11 +177,19 @@ FupTooltip.prototype.setArrowDirection = function(placement, color = '#333') {
 
 FupTooltip.prototype.applyCustomColor = function() {
     const color = this.element.attr('data-color');
+    
     if (color) {
         this.tooltip.css({
             backgroundColor: color,
             color: '#fff'
         });
+
+        if (color.toLowerCase() == '#ffffff') {
+            this.tooltip.css({
+                color: '#333'
+            });
+        }
+
         return color;
     }
     return '#333';
