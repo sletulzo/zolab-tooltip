@@ -7,7 +7,7 @@ TooltipJS est une bibliothèque légère en JavaScript pur permettant d'ajouter 
 Aucune dépendance requise
 
 Facile à intégrer et à utiliser.
-Insertion de HTML possible.
+<p>Insertion de HTML possible.</p>
 Gestion des événements hover et focus.
 
 🚀 Installation
