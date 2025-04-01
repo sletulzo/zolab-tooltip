@@ -1,4 +1,5 @@
 TooltipJS - Un Tooltip en JavaScript Pur
+
 📌 Description
 TooltipJS est une bibliothèque légère en JavaScript pur permettant d'ajouter facilement des infobulles personnalisables à vos éléments HTML.
 
@@ -17,23 +18,17 @@ Ajoutez simplement le fichier tooltip.js à votre projet :
 html
 Copier
 Modifier
-<script src="tooltip.js"></script>
-<link rel="stylesheet" href="tooltip.css">
+<script src="fup-tooltip.js"></script>
+
+
 🎯 Utilisation
 Ajoutez l'attribut data-tooltip à vos éléments :
 
 html
 Copier
 Modifier
-<button data-tooltip="Ceci est une infobulle !">Survolez-moi</button>
-Puis, initialisez TooltipJS dans votre script :
+<button data-toggle="fup-tooltip" data-text="Ceci est une infobulle !">Survolez-moi</button>
 
-js
-Copier
-Modifier
-document.addEventListener("DOMContentLoaded", function () {
-    TooltipJS.init();
-});
 ⚙️ Personnalisation
 Modifiez tooltip.css pour personnaliser l'apparence des infobulles :
 
@@ -46,5 +41,6 @@ Modifier
     padding: 5px 10px;
     border-radius: 5px;
 }
+
 📜 Licence
 Ce projet est sous licence MIT.
