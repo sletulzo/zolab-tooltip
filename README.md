@@ -13,12 +13,12 @@ Personnalisation des styles via CSS
 Gestion des événements hover et focus
 
 🚀 Installation
-Ajoutez simplement le fichier tooltip.js à votre projet :
+Ajoutez simplement le fichier zolab-tooltip.js à votre projet :
 
 html
 Copier
 Modifier
-<script src="fup-tooltip.js"></script>
+<script src="zolab-tooltip.js"></script>
 
 
 🎯 Utilisation
