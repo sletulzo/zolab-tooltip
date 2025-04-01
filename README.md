@@ -6,23 +6,23 @@ TooltipJS est une bibliothèque légère en JavaScript pur permettant d'ajouter 
 ✨ Fonctionnalités
 Aucune dépendance requise
 
-Facile à intégrer et à utiliser.
+<p>Facile à intégrer et à utiliser.</p>
 <p>Insertion de HTML possible.</p>
-Gestion des événements hover et focus.
+<p>Gestion des événements hover et focus.</p>
 
 🚀 Installation
-Ajoutez simplement le fichier zolab-tooltip.js à votre projet :
-script src="zolab-tooltip.js"
+<p>Ajoutez simplement le fichier zolab-tooltip.js à votre projet :</p>
+<p>script src="zolab-tooltip.js"</p>
 
 
 🎯 Utilisation
-Ajoutez l'attribut data-toggle à vos éléments :
-data-toggle="fup-tooltip" data-text="Ceci est une infobulle !"
+<p>Ajoutez l'attribut data-toggle à vos éléments :</p>
+<p>data-toggle="fup-tooltip" data-text="Ceci est une infobulle !"</p>
 
 
 ⚙️ Personnalisation
-- Personnalisation de la couleur : data-color="#010101"
-- Personnalisation du placement : data-placement="top/bottom/left/right"
+<p>- Personnalisation de la couleur : data-color="#010101"</p>
+<p>- Personnalisation du placement : data-placement="top/bottom/left/right"</p>
 
 
 📜 Licence
