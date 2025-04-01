@@ -15,8 +15,9 @@ Ajoutez simplement le fichier zolab-tooltip.js à votre projet :
 <script src="zolab-tooltip.js"></script>
 
 
+
 🎯 Utilisation
-Ajoutez l'attribut data-tooltip à vos éléments :
+Ajoutez l'attribut data-toggle à vos éléments :
 <button data-toggle="fup-tooltip" data-text="Ceci est une infobulle !">Survolez-moi</button>
 
 
