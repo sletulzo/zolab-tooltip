@@ -214,6 +214,10 @@ FupTooltip.prototype.bindEvents = function() {
             this.removeTimeout = null;
         }
     });
+
+    this.element.on('mousedown', () => {
+        this.removeTooltip();
+    });
 };
 
 FupTooltip.prototype.scheduleTooltipRemoval = function() {
@@ -224,4 +228,12 @@ FupTooltip.prototype.scheduleTooltipRemoval = function() {
             this.element.removeData('tooltip-id');
         }
     }, 100);
+};
+
+FupTooltip.prototype.removeTooltip = function () {
+    if (this.tooltip) {
+        this.tooltip.remove();
+        this.tooltip = null;
+        this.element.removeData('tooltip-id');
+    }
 };
