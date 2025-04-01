@@ -14,33 +14,18 @@ Gestion des événements hover et focus
 
 🚀 Installation
 Ajoutez simplement le fichier zolab-tooltip.js à votre projet :
-
-html
-Copier
-Modifier
 <script src="zolab-tooltip.js"></script>
 
 
 🎯 Utilisation
 Ajoutez l'attribut data-tooltip à vos éléments :
-
-html
-Copier
-Modifier
 <button data-toggle="fup-tooltip" data-text="Ceci est une infobulle !">Survolez-moi</button>
 
 ⚙️ Personnalisation
-Modifiez tooltip.css pour personnaliser l'apparence des infobulles :
 
-css
-Copier
-Modifier
-.tooltip {
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
+- Personnalisation de la couleur : data-color="#010101"
+- Personnalisation du placement : data-placement="top/bottom/left/right"
+
 
 📜 Licence
 Ce projet est sous licence MIT.
