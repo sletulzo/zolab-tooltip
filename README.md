@@ -3,7 +3,7 @@ Zolab Tooltip - Un Tooltip en JavaScript Pur
 📌 Description
 TooltipJS est une bibliothèque légère en JavaScript pur permettant d'ajouter facilement des infobulles personnalisables à vos éléments HTML.
 
-✨ Fonctionnalités
+<b>✨ Fonctionnalités</b>
 Aucune dépendance requise
 
 <p>Facile à intégrer et à utiliser.</p>
