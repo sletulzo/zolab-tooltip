@@ -3,7 +3,7 @@ $(document).on('mouseover', '[data-toggle="fup-tooltip"]', function() {
 });
 
 function FupTooltip(element) {
-    this.id = generateGuid();
+    this.id = this.generateGuid();
     this.element = element;
     this.tooltip = null;
 
@@ -24,6 +24,11 @@ FupTooltip.prototype.init = function() {
     this.bindEvents();
 };
 
+FupTooltip.prototype.generateGuid = function() {
+    return Math.random().toString(36).substring(2, 15) +
+        Math.random().toString(36).substring(2, 15);
+};
+
 FupTooltip.prototype.createStyles = function() {
     if ($('#fup-tooltip-styles').length) return;
 
@@ -31,6 +36,7 @@ FupTooltip.prototype.createStyles = function() {
         .fup-tooltip {
             background: #333;
             color: #fff;
+            font-size: 12px;
             padding: 5px 10px;
             border-radius: 5px;
             z-index: 9999;
